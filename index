@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ben Heath | Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="index.html">
+        <h1>Ben Heath</h1>
+        <h2>Developer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a class="selected" href="index.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="mcr/index.html">
+              <img src="mcr/img/mcrtyrants.png" alt="Manchester Tyrants Microsite">
+              <p>A microsite I did for the Manchester Tyrants, as part of a CSS project that I did.</p>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.benplays.co.uk">
+              <img src="img/benplays.png" alt="BenPlays Homepage">
+              <p>A WordPress website I've done for my YouTube channel.</p>
+            </a>
+          </li>
+          <li>
+            <a href="access/index.html">
+              <img src="img/sportsday.png" alt="Big Sports Day">
+              <p>A webpage I did for the Didsbury Big Sports Day. The focus was less on wowing the audience and a lot more on accessability.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/pfrcard.png" class="galleryImage">
+              <img src="img/pfrcard.png" alt="Pokemon FireRed Title Card">
+              <p>A title-card I did for a Pokemon FireRed Let's Play series. The Pinwheel was chosen as it helps the video get noticed.</p>
+            </a>
+          </li>
+          <li>
+            <a href="spoilers.html">
+              <img src="img/spoilers.png" alt="Movie Spoilers">
+              <p>Using jQuery to reveal movie spoilers!</p>
+            </a>
+          </li>
+          <li>
+            <a href="form/index.html">
+              <img src="img/signup.png" alt="Sign Up Form">
+              <p>A prototype sign-up form using HTML.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/myfirstpage.png" class="galleryImage">
+              <img src="img/myfirstpage.png" alt="My first project, an HTML only page.">
+              <p>My first project, an HTML only page.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/bbc.png" class="galleryImage">
+              <img src="img/bbc.png" alt="Another project I did, using HTML and CSS to create a clone of the BBC News frontpage.">
+              <p>Another project I did, using HTML and CSS to create a clone of the BBC News frontpage.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/benbikeride.jpg" class="galleryImage">
+              <img src="img/benbikeride.jpg" alt="My family on a bike ride through Snake Pass">
+              <p>My family on a bike ride through Snake Pass.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/bentyrants.jpg" class="galleryImage">
+              <img src="img/bentyrants.jpg" alt="Playing for the Manchester Tyrants in 2013 against Bradford Bears.">
+              <p>Playing for the Manchester Tyrants in 2013 against Bradford Bears.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/benfootball.jpg" class="galleryImage">
+              <img src="img/benfootball.jpg" alt="On the charge for the Japanese Society football team. My hair was a lot longer back then.">
+              <p>On the charge for the Japanese Society football team. My hair was a lot longer back then.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/benandjames.jpg" class="galleryImage">
+              <img src="img/benandjames.jpg" alt="With my friend James after coaching a Titans game.">
+              <p>With my friend James after coaching a Titans game.</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <a href="https://twitter.com/BenPlays2015"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/pages/BenPlays/1576039719338412"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2015 Ben Heath</p>
+      </footer>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lightbox.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/mobilemenu.js" type="text/javascript" charset="utf-8"></script>
+    </div>
+  </body>
+</html>
