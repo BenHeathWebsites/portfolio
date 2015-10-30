@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Didsbury Big Sports Day 2015</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div id="content">
+			<header>
+				<h1 id="logo">Big Sports Day 2015</h1>
+				<nav>
+					<li><a href="index">Home</a></li>
+					<li><a href="#">Sports and Info</a></li>
+					<li><a href="#">b-eat</a></li>
+					<li><a href="#">Photos</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</nav>
+			</header>
+			<div class="break"></div>
+			<section>
+				<div id="about">
+					<h2>About the Sports Day</h2>
+					<p>Set up by Maria Langslow in 2015, the Didsbury Big Sports Day is an annual summer event at Didsbury Park, all in the name of the eating disorder charity b-eat. The event was a huge success this year, raising more than &pound;200.</p>
+					<p>Sports that were on display included British Military Fitness, Zumba, Fencing and American Football. All these sports are returning, with more sports lined up to give you a taste of what's out there in 2016.</p>
+					<p>There's also drinks available, as well as the return of the hugely popular bake sale.</p>
+				</div>
+				<div id="promo-pic">
+					<img src="img/bmf.png" alt="Two people squatting back-to-back, supporting each other's body weight." title="Picture courtesy of British Military Fitness">
+					<br />
+					<span id="bmf">Picture courtesy of British Military Fitness</span>
+				</div>
+				<div id="cta">
+					<h3>Want to Volunteer?</h3>
+					<p>For details as to how you can join in, visit the <a>Contact Us</a> page for more information.</p>
+				</div>
+				<div class="break"></div>
+				<div id="timetables">
+				<h3>Timetable for Didsbury Big Sports Day</h3>
+				<p>Date - 29th August 2015</p>
+				<p>Time - 12pm til 5pm</p>
+				<table id="sports-timetable">
+					<thead>
+						<tr>
+							<th>Time</th>
+							<th>Event</th>
+							<th>Instructor</th>
+						</tr>
+					</thead>
+					<tr>
+						<td>12pm</td>
+						<td><strong>British Military Fitness</strong></td>
+						<td>Adam Smith</td>
+					</tr>
+					<tr>
+						<td>1pm</td>
+						<td><strong>Zumba</strong></td>
+						<td>Carolyn Johnson</td>
+					</tr>
+					<tr>
+						<td>2pm</td>
+						<td><strong>Fencing</strong></td>
+						<td>Maria Langslow</td>
+					</tr>
+					<tr>
+						<td>3pm</td>
+						<td><strong>Dance</strong></td>
+						<td>Joyce Tanner</td>
+					</tr>
+					<tr>
+						<td>4pm</td>
+						<td><strong>American Football</strong></td>
+						<td>Ben Heath</td>
+					</tr>
+				</table>				
+			</section>
+			<footer>
+				<p>This website is for demonstration purposes only</p>
+				<p>&copy; Ben Heath 2015</p>
+			</footer>
+		</div>
+	</body>
+</html>
