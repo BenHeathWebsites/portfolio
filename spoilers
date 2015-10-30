@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ben Heath | Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/spoilers.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="index.html">
+        <h1>Ben Heath</h1>
+        <h2>Developer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a class="selected" href="index.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+		<h1 class="spoilers-title">Movie Spoilers!</h1>
+		<h2 class="spoilers-title">Here you can see some major spoilers from some of the world's most famous films. Just click on a button to reveal the spoiler!</h2>
+		<p class="spoiler">
+			<span>Darth Vader is Luke Skywalker's Father!</span>
+		</p>
+		<p class="spoiler">
+			<span>Luke and Leia are siblings!</span>
+		</p>
+		<p class="spoiler">
+			<span>The knights in Monty Python and the Holy Grail are escaped mental patients.</span>
+		</p>
+		<p class="spoiler">
+			<span>Tyler Durden and the narrator in Fight Club are the same people.</span>
+		</p>
+		<p class="spoiler">
+			<span>Snape kills Dumbledore.</span>
+		</p>
+		<p class="spoiler">
+			<span>Bruce Willis is dead in Sixth Sense.</span>
+		</p>
+		<p class="spoiler">
+			<span>Jigsaw is in the room the whole time.</span>
+		</p>
+		<p class="spoiler">
+			<span>The Planet of the Apes is planet Earth.</span>
+		</p>
+      </section>
+      <footer>
+        <a href="https://twitter.com/BenPlays2015"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/pages/BenPlays/1576039719338412"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2015 Ben Heath</p>
+      </footer>
+    </div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/spoilers.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
