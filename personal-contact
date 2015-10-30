@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ben Heath | Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="index.html">
+        <h1>Ben Heath</h1>
+        <h2>Developer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="selected" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section id="primary">
+        <h3>General Information</h3>
+        <p>I am currently looking for new development work, and I am also available for speaking gigs, tutoring and mentoring for children with Asperger Syndrome and other similar engagements. If you have any question, queries or comments, please do not hesitate to get in touch with me!</p>
+        <p>Please contact me by email or twitter. However, if you have an urgent enquiry, please get in touch via phone.</p>
+      </section> 
+      <section id="secondary">
+        <h3>Contact Information</h3>
+        <ul class="contact-info">
+          <li class="phone"><a href="tel:07740104110">07740104110</a></li>
+          <li class="mail"><a href="mailto:benheathlangslow@gmail.com">benheathlangslow@gmail.com</a></li>
+          <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=BenPlays2015">@BenPlays2015</a></li>
+        </ul>
+      </section>
+      <footer>
+        <a href="https://twitter.com/BenPlays2015"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/pages/BenPlays/1576039719338412"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2015 Ben Heath</p>
+      </footer>
+    </div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/mobilemenu.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
