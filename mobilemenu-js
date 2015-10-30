@@ -1,0 +1,51 @@
+/*
+	Problem:I need a mobile menu for my website.
+	Solution:Hide the text links and swap them out with a more
+	appropriate navigation.
+*/
+
+/*
+	Plan of attack:
+	1. Create a select and append to menu
+	2. Cycle over menu links
+		2.1 Create an option
+		2.2 Option's value is the href
+		2.3 Option's text is the text of link
+		2.4 Append option to select
+	3. Create button
+	4. Bind click to button
+		4.1 Go to select's location.
+	5. Modify CSS to hide links on small widths and show button and select.
+		5.1 Also hides select and button on larger widths and shows links.
+	6. Deal with selected options depending on current page.
+	
+*/
+
+//Step 1
+var $select = $("<select></select>");
+$("nav").append($select);
+
+//Step 2
+$("nav a").each(function() {
+	var $anchor = $(this);
+	//Step 2.1
+	var $option = $("<option></option>");
+	//Step 6
+	if ($anchor.hasClass("selected")) {
+		$option.prop("selected", true);
+	}
+	//Step 2.2
+	$option.val($anchor.attr("href"));
+	//Step 2.3
+	$option.text($anchor.text());
+	//Step 2.4
+	$select.append($option);
+})
+
+//Step 3
+
+//Step 4
+$select.change(function(){
+	//Step 4.1
+	window.location = $select.val();
+});
