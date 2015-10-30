@@ -1,0 +1,32 @@
+//Problem: Poor user experience when clicking on image, leads to a dead end.
+//Solution: Creating an overlay with the enlarged image - a simple lightbox.
+//The $ in $overlay is a reference to say it's a jQuery function.
+var $overlay = $("<div id='overlay'></div>");
+var $image = $("<img>");
+var $caption = $("<p></p>");
+	//Add image
+$overlay.append($image);
+	//A caption
+$overlay.append($caption);
+	//Add the overlay
+$("body").append($overlay);
+	
+//Capture the click event on a link to an image.
+$(".galleryImage").click(function(event){
+	event.preventDefault();
+	//Update overlay with the enlarged image linked in the link.
+	var imageLocation = $(this).attr("href");
+	var captionLocation = $(this).children("img").attr("alt");
+	$image.attr("src", imageLocation);
+	$caption.text(captionLocation);
+	//Show the overlay
+	$overlay.show();
+	//Get child's alt attribute and set caption.
+});
+	//2.1 An image
+	//2.2 A caption
+//3. When overlay is clicked
+$overlay.click(function(){
+	//3.1 Hide the overlay
+	$overlay.hide();
+});
