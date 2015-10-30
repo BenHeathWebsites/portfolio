@@ -1,0 +1,131 @@
+/***********************
+Basic Page Style
+***********************/
+
+body {
+	margin:0;
+	font-family: Helvetica, sans-serif;
+	font-size: 0.85em;
+	background-color:#FFFF00;
+}
+
+header, section {
+	width:1000px;
+	margin: 0 auto;
+}
+
+.break {
+	clear:both;
+}
+
+/***********************
+Header Styles
+***********************/
+
+#logo {
+	float:left;
+	margin-top:2%;
+	margin-left:0;
+	font-size:2.6em;
+	width:40%;
+}
+
+nav {
+	margin-top:25px;
+	width:60%;
+	float:right;
+	list-style:none;
+}
+
+nav li {
+	display:inline-block;
+}
+
+nav li a {
+	text-decoration:none;
+	color:black;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:10px;
+	background:black;
+	color:#FFFF00;
+	border-radius:5%;
+}
+
+nav li a:hover, nav li a:focus {
+	border:2px solid black;
+	background-color:#FFFF00;
+	color:black;
+}
+
+/***********************
+Content Styles
+***********************/
+
+img {
+	max-width:100%;
+}
+
+#promo-pic {
+	float:right;
+	margin-right:5%;
+}
+
+#bmf {
+	font-size:0.9em;
+	font-style:italic;
+	font-weight:bold;
+}
+
+#about, #cta {
+	float:left;
+	width:65%;
+	font-size:1.35em;
+}
+
+/***********************
+Table
+***********************/
+
+#timetables {
+	text-align:center;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+#sports-timetable {
+	text-align:center;
+	width:95%;
+	font-size:1.05em;
+}
+
+#sports-timetable th {
+	background-color:black;
+	color:#FFFF00;
+	padding:10px;
+}
+
+#sports-timetable td {
+	background-color:#FFFF88;
+	color:black;
+	padding:5px;
+}
+
+/***********************
+Footer
+***********************/
+
+footer {
+	text-align:center;
+	background-color:black;
+	color:#FFFF00;
+	font-weight:bold;
+	font-size:1.3em;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+footer p{
+	padding:7px;
+}
