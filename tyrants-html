@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manchester Tyrants</title>
+    <link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+  <body> 
+    <header id="top" class="main-header">
+      <span class="title">Welcome to the home of American Football at the University of Manchester</span>
+      <h1>Manchester Tyrants</h1>
+    </header>
+	<div class="primary-content">
+		<p class="intro">
+		  The Manchester Tyrants are the American Football team of the University 
+		  of Manchester. Founded in 2009, we currently compete in the BUCS 
+		  Northern 2A Divison, and play our home matches at Burnage Rugby Club.
+		</p>
+		<a class="callout" href="#">Find out more</a>
+		<div class="tyrant-football">
+			<h2>Tyrant Football</h2>
+			<p>
+				Being a Tyrant is about working hard on the field, and playing hard 
+				off it. Whether you&apos;re making a game-saving tackle in the final 
+				quarter of a playoff game or partying in Europe on our annual sports 
+				tour, it&apos;s about giving everything, not only for you, but for the 
+				team. It&apos;s about being willing to learn and better yourself, both as 
+				a player and as a person.
+			</p>
+			<a class="callout" href="#">Meet the players</a>
+		</div>
+	</div>
+	<div class="secondary-content t-border group">
+		<div class="training">
+			<img src="img/tyrantstraining960.jpg" alt="The Armitage Center">
+			<h3>Training Times</h3>
+			<p>The Tyrants train twice a week at the Armitage Center, in Fallowfield.</p>
+			<ul>
+				<li>Wednesday: 5:30PM - 7:30PM</li>
+				<li>Sunday: 1:30PM - 4:30PM</li>
+			</ul>
+		</div>
+		<div class="contact-us">
+			<img src="img/tyrants2015.jpg" alt="Tyrants 2015">
+			<h3>Contact us</h3>
+			<p>Want to join the Tyrants? Get in touch with us!</p>
+			<ul>
+				<li><a href="">Facebook</a></li>
+				<li><a href="">Twitter</a></li>
+				<li><a href="">Email</a></li>
+			</ul>
+		</div>
+	</div>
+	<footer id="main-footer" class="t-border">
+		<p>This website is set up for demonstration purposes only</p>
+		<a href="#top">Back to top</a>
+		<p>&copy; 2015 Ben Heath Websites</p>
+	</footer>
+  </body>
+</html>
