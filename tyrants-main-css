@@ -1,0 +1,278 @@
+/* This is a universal selector*/
+
+@font-face {
+	font-family:'KronaOne';
+	src:url('../fonts/KronaOne-Regular.ttf') format('truetype');
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/*This is an element selector.
+In this instance, it selects the body element */
+
+/***********************
+SECTION SETTINGS
+***********************/
+
+body {
+	text-align:center; 
+	color:slategrey;
+	margin:0;
+	font: normal 1em/1.5 Helvetica, Arial, sans-serif;
+}
+
+/***********************
+HEADING SETTINGS
+***********************/
+
+h1 {
+	/* 90px/16px */
+	font-size:4.625em;
+	text-transform: uppercase;
+	font-weight:normal;
+	text-shadow:0 1px 0 #ccc,
+				0 2px 0 #c9c9c9,
+				0 3px 0 #bbb,
+				0 4px 0 #b9b9b9,
+				0 5px 0 #aaa,
+				0 6px 1px rgba(0,0,0,.1),
+				0 0 5px rgba(0,0,0,.1),
+				0 1px 3px rgba(0,0,0,.3),
+				0 3px 5px rgba(0,0,0,.2),
+				0 5px 10px rgba(0,0,0,.25),
+				0 10px 10px rgba(0,0,0,.2),
+				0 20px 20px rgba(0,0,0,.15);
+	margin:12px 0 0;
+}
+
+h2 {
+	font-size:3.3125em;
+	text-decoration:underline;
+	font-weight:normal;
+	margin-bottom:0.5em; /* 26px */
+}
+
+h1, h2 {
+	font-family:'KronaOne', Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	font-size:1.25em;
+	color:#111111;
+	margin-bottom: 1.7em;/* 34px */
+}
+
+img {
+	max-width:100%;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style:none;
+}
+
+/*
+
+li {
+	display:inline-block;
+	padding:0 12px;
+	margin:80px 12px;
+	border-right:solid 1px;
+}
+
+*/
+
+/***********************
+ID SETTINGS
+***********************/
+
+/* Hashtags indicate an ID*/
+
+.callout {
+	font-size:1.25em;
+	border-bottom:3px solid;
+	padding: 0 9px 3px;
+	margin-top: 20px;
+	display:inline-block;
+}
+
+#main-footer {
+	padding-top:60px;
+	padding-bottom:60px;
+	border-bottom: solid 10px #111111;
+}
+
+/***********************
+CLASS SETTINGS
+***********************/
+
+/* Periods indicate a class */
+
+.main-header {
+	color:rgb(255,255,255);
+	height:850px;
+	padding-top:170px;
+	/* color image repeat position / size */
+	background:linear-gradient(#670099,transparent 90%),
+			   linear-gradient(0deg,#fff,transparent),
+	           #670099 url('../img/tyrants2013purple.jpg') no-repeat center / cover;
+	box-shadow:inset 0 0 60px 15px white;
+}
+
+
+
+.title {
+	color:white;
+	/* 26px/16px */
+	font-size:1.625rem; 
+	letter-spacing:.065em;
+	font-weight:200;
+	border-bottom: 2px solid;
+	padding-bottom:10px;
+}
+
+.t-border {
+	border-top: 2px solid #670099;
+}
+
+.primary-content {
+}
+
+.primary-content, 
+.secondary-content {
+	width:75%;
+	padding:5% 2%;
+	margin:auto;
+	max-width:900px;
+}
+
+.tyrant-football {
+	color:white;
+	padding:8% 14%;
+	border-top:10px solid black;
+	margin: 45px 0 30px;
+	background-image:url('../img/tyrantslogo2.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	box-shadow: 0 0 50px 10px rgba(103,0,153,1);
+	border-radius:1%;
+}
+.arrow {
+	width:5%;
+	margin-top:150px;
+}
+
+/***********************
+Different psuedo classes do different things 
+link: selects any unvisited link
+visited: selects visited links
+hover: selects elements that are being hovered overflow
+active: selects interactive elements that have been clicked on
+focus: selects elements that are being focused
+***********************/
+
+a {
+	text-decoration:none;
+	font-weight:bold;
+	color:#670099;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:active {
+	background-color:#670099;
+	color:white;
+}
+
+a:focus {
+	background-color:#670099;
+	color:white;
+}
+
+/***********************
+FLOATED COLUMNS 
+***********************/
+
+.training, .contact-us {
+	width:46.5%;
+} 
+
+.training {
+	float:left;
+}
+
+.contact-us {
+	float:right;
+}
+
+/***********************
+FLOAT CLEARFIX
+***********************/
+
+.group:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/***********************
+MEDIA QUERIES
+***********************/
+
+@media (max-width:1024px) {
+	.primary-content, .secondary-content {
+		width:90%;
+	}
+	
+	.tyrant-football {
+		padding:10% 12 %;
+		margin:50px 0 20px;
+	}
+}
+
+@media (max-width:768px) {
+	.primary-content, .secondary-content {
+		width:100%;
+		padding:20px;
+		border-top:none;
+	}
+	
+	.main-header {
+		max-height:380px;
+		padding:50px 25px 0;
+	}
+	
+	.title {
+		font-size:1.3rem;
+		border:none;
+	}
+	
+	h1 {
+		font-size: 4rem;
+		line-height:1.1;
+	}
+	
+	.arrow {
+		display:none;
+	}
+	
+	.intro {
+		font-size:1rem;
+	}
+	
+	.training, .contact-us {
+		float:none;
+		width:100%;
+	}
+	
+	#main-footer {
+		padding:20px 0;
+	}
+}
